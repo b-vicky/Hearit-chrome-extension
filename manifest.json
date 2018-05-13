@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "HearIt",
+  "version": "1.0",
+  "description": "Select the text you want and just listen",
+  "icons": {
+    "128": "ear128.png",
+    "48": "ear40.png",
+    "16": "ear.png"
+  },
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": false
+  },
+  "permissions": ["tts", "contextMenus"]
+}
